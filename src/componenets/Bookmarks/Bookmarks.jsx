@@ -1,9 +1,21 @@
-import React from 'react'
+import React from "react";
+import PropTypes from "prop-types";
+import Bookmark from "../Bookmark/Bookmark";
 
-export default function Bookmarks() {
+export default function Bookmarks({ bookmarks, readingTime }) {
   return (
-    <div className='md:w-1/3'>
-      <h2>Bookmarks</h2>
+    <div className="md:w-1/3">
+      <h3>Reading Time: {readingTime}</h3>
+      <h2 className="text2">Bookmarked Blogs: {bookmarks.length}</h2>
+
+      {bookmarks.map((bookmark) => (
+        <Bookmark bookmark={bookmark}></Bookmark>
+      ))}
     </div>
-  )
+  );
 }
+
+Bookmarks.propTypes = {
+  bookmarks: PropTypes.array.isRequired,
+  readingTime: PropTypes.number.isRequired,
+};
