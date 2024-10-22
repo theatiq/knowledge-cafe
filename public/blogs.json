@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "cover": "https://img.freepik.com/free-photo/tv-screen-shows-landscape-with-mountains-sunset_1340-38790.jpg",
+      "title": "Exploring the Cosmos: A Journey Beyond Earth",
+      "author": "Jane Doe",
+      "author_img": "https://img.freepik.com/premium-photo/blooming-purple-flowers_1107780-3632.jpg?semt=ais_hybrid",
+      "posted_date": "2024-10-15",
+      "reading_time": 8,
+      "hashtags": ["#space", "#cosmos", "#astronomy"]
+    },
+    {
+      "id": 2,
+      "cover": "https://img.freepik.com/free-photo/panoramic-view-beach-sunset_181624-60197.jpg",
+      "title": "The Art of Minimalism: Living With Less",
+      "author": "John Smith",
+      "author_img": "https://img.freepik.com/free-photo/closeup-shot-beautiful-purple-petaled-black-eyed-susan-flower-blurred-background_181624-23314.jpg?semt=ais_hybrid",
+      "posted_date": "2024-09-30",
+      "reading_time": 5,
+      "hashtags": ["#minimalism", "#lifestyle", "#simplicity"]
+    },
+    {
+      "id": 3,
+      "cover": "https://img.freepik.com/free-photo/sunset-with-foggy-horizon-sun-background_1340-23013.jpg",
+      "title": "Mastering JavaScript: Tips and Tricks for Developers",
+      "author": "Alice Johnson",
+      "author_img": "https://img.freepik.com/free-photo/vertical-selective-focus-shot-magnificent-barberton-daisy-flower-forest_181624-28507.jpg?semt=ais_hybrid",
+      "posted_date": "2024-10-01",
+      "reading_time": 10,
+      "hashtags": ["#javascript", "#coding", "#webdev"]
+    },
+    {
+      "id": 4,
+      "cover": "https://img.freepik.com/premium-photo/sunset-bliss-mountain-sky_1234738-247110.jpg",
+      "title": "The Secrets of Effective Time Management",
+      "author": "Robert Brown",
+      "author_img": "https://img.freepik.com/free-photo/beautiful-fresh-bouquet-flowers-colored-background_23-2147940332.jpg?semt=ais_hybrid",
+      "posted_date": "2024-10-20",
+      "reading_time": 6,
+      "hashtags": ["#timemanagement", "#productivity", "#selfhelp"]
+    }
+  ]
+  
