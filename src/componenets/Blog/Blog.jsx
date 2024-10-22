@@ -5,6 +5,7 @@ import { IoBookmarkSharp } from "react-icons/io5";
 
 export default function Blog({ blog, handleAddToBookmark, handleMarkAsRead }) {
   const {
+    id,
     title,
     cover,
     author,
@@ -42,7 +43,7 @@ export default function Blog({ blog, handleAddToBookmark, handleMarkAsRead }) {
           </span>
         ))}
       </p>
-      <button onClick={() => handleMarkAsRead(reading_time)}>
+      <button onClick={() => handleMarkAsRead(id, reading_time)}>
         Mark as Read
       </button>
     </div>

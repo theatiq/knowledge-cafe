@@ -8,8 +8,8 @@ export default function Bookmarks({ bookmarks, readingTime }) {
       <h3>Reading Time: {readingTime}</h3>
       <h2 className="text2">Bookmarked Blogs: {bookmarks.length}</h2>
 
-      {bookmarks.map((bookmark) => (
-        <Bookmark bookmark={bookmark}></Bookmark>
+      {bookmarks.map((bookmark, idx) => (
+        <Bookmark key={idx} bookmark={bookmark}></Bookmark>
       ))}
     </div>
   );
