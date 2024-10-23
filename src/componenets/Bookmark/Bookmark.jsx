@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 export default function Bookmark({ bookmark }) {
   const {title} = bookmark;
@@ -9,3 +9,6 @@ export default function Bookmark({ bookmark }) {
   );
 }
 
+Bookmark.propTypes = {
+  bookmark: PropTypes.object
+}

@@ -1,4 +1,3 @@
-import React from "react";
 import PropTypes from "prop-types";
 
 import { IoBookmarkSharp } from "react-icons/io5";
@@ -52,4 +51,5 @@ export default function Blog({ blog, handleAddToBookmark, handleMarkAsRead }) {
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handleAddToBookmark: PropTypes.func.isRequired,
+  handleMarkAsRead: PropTypes.func,
 };
